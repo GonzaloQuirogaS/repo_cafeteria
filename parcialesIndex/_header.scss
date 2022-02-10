@@ -1,0 +1,77 @@
+.header {
+    padding: 20px;
+    background: #000000;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(66, 66, 66, 0.507)), to(rgba(0, 0, 0, 0.609))), url(../assets/backgroun3.jpg);
+    background: linear-gradient(to bottom, rgba(66, 66, 66, 0.507), rgba(0, 0, 0, 0.609)), url(../assets/backgroun3.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+
+
+    
+    &__textoInicio {
+        font-family: 'PT Serif', serif;
+        
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        h1 {
+            font-size: 60px;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 30px;
+            color: #fff;
+            padding-bottom: 50px;
+            padding-top: 20px;
+
+        }
+    
+    }
+    &__btn {
+         
+            outline: none;
+            border: none;
+            background: #CE6D06;
+            font-family: "Roboto", sans-serif;
+            color: #fff;
+            padding: 17px 25px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 50px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            transition: .3s ease all;
+            width: 250px;
+            
+            a {
+                
+                text-decoration: none;
+                
+            }
+
+            a:visited {
+                color: #fff;
+            }
+
+        }
+        
+    &__btn:hover  {
+            background: #fff;
+            color: #000;
+            cursor: pointer;
+
+            a {
+                color: #000;
+            }
+        }
+        
+}

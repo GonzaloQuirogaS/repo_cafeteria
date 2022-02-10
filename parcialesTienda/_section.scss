@@ -1,0 +1,127 @@
+.contenedorItemsTiendabg {
+    background: #EDE9E1;
+   
+}
+
+.contenedorItemsTienda {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
+    background: #EDE9E1;
+    width: 1200px;
+
+    &__item {
+        background: #e0c4ae;
+        border: #000 solid 1px;
+        overflow: hidden;
+        text-align: center;
+        border-radius: 5px;
+        transition: .3s ease all;
+
+        .itemImg1 {
+            background-image: url(../assets/Item-tienda1.jpg);
+            height: 300px;
+            background-size: auto;
+            background-position: center;
+        }
+
+        .itemImg2 {
+            background-image: url(../assets/Item-tienda2.jpg);
+            height: 300px;
+            background-size: auto;
+            background-position: center;
+        }
+
+        .itemImg3 {
+            background-image: url(../assets/Item-tienda3.jpg);
+            height: 300px;
+            background-size: auto;
+            background-position: center;
+        }
+
+        .itemImg4 {
+            background-image: url(../assets/Item-tienda4.jpg);
+            height: 300px;
+            background-size: auto;
+            background-position: center;
+        }
+
+        .itemImg5 {
+            background-image: url(../assets/Item-tienda5.jpg);
+            height: 300px;
+            background-size: auto;
+            background-position: center;
+        }
+
+        .itemImg6 {
+            background-image: url(../assets/Item-tienda6.jpg);
+            height: 300px;
+            background-size: auto;
+            background-position: center;
+
+
+        }
+
+        .tituloItem {
+            margin: 10px 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .descripcionItem {
+            font-style: italic;
+            color: #000;
+        }
+
+        .precioItem {
+            color: #000;
+        }
+    }
+
+    &__item:hover {
+        transform: scale(1.02);
+    }
+
+
+
+}
+
+button {
+    outline: none;
+    border: none;
+    background: #CE6D06;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    padding: 17px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: .3s ease all;
+    width: 130px;
+    margin-bottom: 20px;
+
+    a {
+
+        text-decoration: none;
+
+    }
+
+    a:visited {
+        color: #fff;
+    }
+
+
+}
+
+button:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
